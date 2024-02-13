@@ -22,7 +22,7 @@ body {
     top: 0;
     width: 100%;
     min-height: 100px;
-    border-bottom: 1px solid rgb(182, 182, 182);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.069);
     background-color: #F4FDFF;
 
 }
@@ -56,47 +56,50 @@ body {
 
 .header-logo {
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 100;
     font-family: 'Montserrat', sans-serif;
     text-shadow: 3px 3px 5px #CDB4DB;
 }
 
 a.header-logo {
-    color: rgb(18, 18, 18);
+    color: rgb(1, 0, 16);
     text-decoration: none;
     cursor: pointer;
 }
 /* Logo link og bilde style */
 
-/* Nav bar link styling */
-#main-nav-product-links {
+/* Nav bar produkter link styling */
+#nav-product-links {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items: left;
+    align-items: center;
     min-width: 40%;
     max-width: 1000px;
-    height: 30px;
     margin: 25px;
-    padding: 4px;
-    border: 1px solid black;
+    padding: 6px;
 }
-/* Nav bar link styling */
+/* Nav bar produkter link styling */
 
 /* Profil logg inn og handlekurv */
 #header-nav-bar-profil-shopping-cart {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 40px;
-    width: 70px;
-    margin: 20px 20px 20px 10px;
+    gap: 10px;
+    margin: 20px 20px;
     border: 2px solid rgb(32, 32, 32);
     border-radius: 20px;
+    padding: 6px 10px;
+    box-shadow: 0;
+    transition: 0.5s;
+}
+
+#header-nav-bar-profil-shopping-cart:hover {
     box-shadow: 2px 2px 4px rgb(103, 103, 103);
-    
+    transition: 0.5s;
 }
 /* Profil logg inn og handlekurv */
 
@@ -113,8 +116,8 @@ a.header-logo {
 #footer-box {
     width: 100%;
     min-height: 150px;
-    border-top: 1px solid black;
-    background-image: linear-gradient(transparent, #cfd8db);
+    border-top: 1px solid rgba(0, 0, 0, 0.069);
+    background-image: linear-gradient(transparent, #dce8eb);
 }
 
 #footer-text-and-links {
@@ -122,7 +125,43 @@ a.header-logo {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    margin: 50px 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(169, 169, 169);
 }
 /* Footer elementer styling */
+
+/* Nav bar anchor tag style */
+a.nav-bar-product-link {
+    padding: 0 6px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(1, 0, 16);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a.nav-bar-product-link:hover {
+    text-decoration: underline;
+}
+
+/* Nav bar anchor tag style */
+
+/* Anchor tag i footer style */
+a.footer-link {
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(1, 0, 16);
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+a.footer-link:hover {
+    background-color: rgb(168, 167, 173);
+    transition: 0.5s;
+}
+/* Anchor tag i footer style */
