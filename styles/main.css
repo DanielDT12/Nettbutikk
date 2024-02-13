@@ -8,31 +8,36 @@ body {
     background-color: #F4FDFF;
 }
 
+/* wrapper for header, main og footer */
 .wrapper {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     border: none;
 }
+/* wrapper for header, main og footer */
 
 #header {
     position: sticky;
+    top: 0;
     width: 100%;
-    height: 100px;
+    min-height: 100px;
     border-bottom: 1px solid rgb(182, 182, 182);
     background-color: #F4FDFF;
 
 }
 
+/* Nav tag posisjonering */
 #header-nav-bar-elements {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: left;
-    height: 80px;
+    min-height: 80px;
     margin-top: 10px;
-    border: 1px solid black;
 }
+/* Nav tag posisjonering */
 
 /* Header elementer styling */
 
@@ -40,7 +45,7 @@ body {
 #img-text-logo-header {
     display: flex;
     flex-direction: row;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 #mech-switch-img {
@@ -53,6 +58,7 @@ body {
     font-size: 4rem;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
+    text-shadow: 3px 3px 5px #CDB4DB;
 }
 
 a.header-logo {
@@ -66,10 +72,11 @@ a.header-logo {
 #main-nav-product-links {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: left;
     min-width: 40%;
-    max-width: 100%;
+    max-width: 1000px;
     height: 30px;
     margin: 25px;
     padding: 4px;
@@ -85,7 +92,7 @@ a.header-logo {
     align-items: center;
     height: 40px;
     width: 70px;
-    margin: 20px 10px 20px 10px;
+    margin: 20px 20px 20px 10px;
     border: 2px solid rgb(32, 32, 32);
     border-radius: 20px;
     box-shadow: 2px 2px 4px rgb(103, 103, 103);
@@ -105,13 +112,17 @@ a.header-logo {
 /* Footer elementer styling */
 #footer-box {
     width: 100%;
-    height: 150px;
-    background-color: pink;
+    min-height: 150px;
+    border-top: 1px solid black;
+    background-image: linear-gradient(transparent, #cfd8db);
 }
 
 #footer-text-and-links {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(169, 169, 169);
 }
 /* Footer elementer styling */
