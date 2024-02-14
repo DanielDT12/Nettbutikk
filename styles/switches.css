@@ -29,7 +29,7 @@
 .switches-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 20px 70px;
+    margin: 20px 20px;
 }
 
 .switch-product-container {
@@ -37,6 +37,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 20px auto;
     border: 1px solid rgb(21, 21, 21);
     border-radius: 40px;
     background-color: rgb(21, 21, 21);
@@ -44,7 +45,7 @@
 }
 
 .switch-img {
-    max-width: 300px;
+    max-width: 320px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
