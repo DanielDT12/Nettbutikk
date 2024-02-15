@@ -3,6 +3,7 @@
     flex-direction: column;
 }
 
+/* Overskrif og paragraf info om produkter */
 .switch-text-container-info {
     width: 100%;
     min-height: 200px;
@@ -25,7 +26,9 @@
     font-size: 25px;
     color: rgb(21, 21, 21);
 }
+/* Overskrif og paragraf info om produkter */
 
+/* Container for bilde av produkt, liste, input field og knapp */
 .switches-container {
     display: flex;
     flex-wrap: wrap;
@@ -43,13 +46,17 @@
     background-color: rgb(21, 21, 21);
     color: whitesmoke;
 }
+/* Container for bilde av produkt, liste, input field og knapp */
 
+/* Bildet av produkt*/
 .switch-img {
     max-width: 320px;
     border-top-left-radius: 40px;
     border-top-right-radius: 40px;
 }
+/* Bildet av produkt*/
 
+/* overskrift av produkt og liste styling inne i produkt container */
 .product-info {
     display: flex;
     flex-direction: column;
@@ -68,7 +75,9 @@
     font-size: 18px;
     line-height: 25px;
 }
+/* overskrift av produkt og liste styling inne i produkt container */
 
+/* input field og button styling inne i produkt container */
 .input-number {
     width: 200px;
     padding: 5px;
@@ -96,3 +105,4 @@
     transform: translateY(3px);
     transition: 0.2s;
 }
+/* input field og button styling inne i produkt container */
