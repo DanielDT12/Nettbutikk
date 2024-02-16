@@ -12,8 +12,8 @@
 .switch-text-container-info {
     width: 100%;
     min-height: 200px;
+    margin: 40px 0;
     padding: 20px 150px;
-    border: 1px solid black;
     text-align: center;
 }
 
@@ -46,10 +46,15 @@
     justify-content: center;
     align-items: center;
     margin: 20px auto;
-    border: 1px solid rgb(21, 21, 21);
-    border-radius: 40px;
+    border-radius: 42px;
     background-color: rgb(21, 21, 21);
     color: whitesmoke;
+    transition: .5s;
+}
+
+.switch-product-container:hover {
+    box-shadow: 0 0 12px rgb(21, 9, 39);
+    transition: .5s;
 }
 /* Container for bilde av produkt, liste, input field og knapp */
 
