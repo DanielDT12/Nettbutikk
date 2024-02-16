@@ -37,10 +37,17 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 18px;
     background-color: rgb(246, 246, 246);
+    transition: .5s;
+}
+
+#form-container input:hover {
+    box-shadow: 0 0 6px rgb(21, 21, 21);
+    transition: .3s;
 }
 
 #form-container input:focus {
-    box-shadow: 3px 3px 6px #CDB4DB;
+    box-shadow: 0 0 10px #CDB4DB;
+    transition: .5s;
 }
 
 #form-container input[type=submit] {

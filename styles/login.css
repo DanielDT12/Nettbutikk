@@ -27,6 +27,12 @@
     border-radius: 20px;
     padding: 10px 15px;
     background-color: rgb(246, 246, 246);
+    transition: .5s;
+}
+
+.login-container input:hover {
+    box-shadow: 0 0 4px rgb(21, 21, 21);
+    transition: .5s;
 }
 
 ::placeholder {
