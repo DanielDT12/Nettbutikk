@@ -1,0 +1,74 @@
+/* Container for alle elementer main */
+#front-page-main-body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+/* Container for alle elementer main */
+
+/* Overskrift og paragraf */
+.front-page-info {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.front-page-info i {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: rgb(21, 21, 21);
+    text-shadow: 2px 2px 5px #CDB4DB;
+}
+
+.front-page-info p {
+    padding: 30px 150px;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* Overskrift og paragraf */
+
+/* Bilde style */
+.img-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-products img {
+    width: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+/* Bilde style */
+
+/* Container style for bilder og linker til sidene */
+.image-link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border-radius: 12px;
+    background-color: rgba(21, 21, 21, 0.953);
+    transition: .5s;
+}
+
+.image-link-container:hover {
+    box-shadow: 0 0 10px rgb(21, 21, 21);
+    transition: .5s;
+}
+
+.image-link-container a {
+    padding: 10px 0;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.image-link-container a:hover {
+    text-decoration: underline;
+}
+/* Container style for bilder og linker til sidene */
